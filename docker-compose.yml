@@ -225,7 +225,7 @@ services:
       - standardnotes_self_hosted
 
   db:
-    image: mysql:5.6
+    image: mysql:8
     container_name: db-self-hosted
     environment:
       MYSQL_DATABASE: '${DB_DATABASE}'
